@@ -1,0 +1,11 @@
+.main{
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+.main:hover{
+   transform: scale(1.2);
+}

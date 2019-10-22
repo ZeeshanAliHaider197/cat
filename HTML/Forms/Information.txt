@@ -1,0 +1,3 @@
+Button Submit
+action tag is used for button action
+method(Get,post,delete,put)

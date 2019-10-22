@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+#main{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: lawngreen;;
+    top: 93%;
+}
+.pera{
+    float: right;
+   margin-right: 0px; 
+   /* margin-left: 160%;  */
+   padding: 10px;
+   color:blue;
+  transition: margin-right 15s linear 0s;
+}
+.pera:hover{
+    transition: margin-right 15s linear 0s;
+margin-right: 120%;
+margin-left: -60%;
+}

@@ -1,0 +1,2 @@
+create a tag with an id and class 
+apply styling thorough id , class, id and class, by attrib and give important to attribute

@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+}
+#main{
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    float: left;
+    z-index: 1;
+
+}
+.car{
+    width: 400px;
+    left: 0px;
+    float: left;
+    position: absolute;
+    
+    animation: mycar 12s ease-out 0s infinite;
+
+
+}
+@keyframes mycar{
+    from{
+       margin-left: 0%;
+    }
+    to{
+       margin-left: 100%;
+    }
+}
+.Go{
+    z-index: 7;
+}
+.wheel1{
+    left: 66px;
+    width: 53px;
+    position: absolute;
+    top: 94px;
+    animation: mywheel1 12s ease-out 0s infinite; 
+
+}
+@keyframes mywheel1{
+    from{
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 100%;
+        transform: rotate(360deg);
+    }
+   
+}
+.wheel2{
+    position: absolute;
+    width: 54px;
+    top: 93px;
+    left: 293px;
+    animation: mywheel2 12s ease-out 0s infinite; 
+
+    
+}
+@keyframes mywheel2{
+    from{
+        margin-left: 0%;
+        transform: rotate(0deg);
+    }
+    to{
+        margin-left: 100%;
+        transform: rotate(360deg);
+    }
+   
+}
+.road{
+    width: 100vw;
+    position: absolute;
+}
+/* .moving{
+    
+}
+.Go{
+position: absolute;
+top: 70%;
+} */

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        @keyframes fanAnimation {
+
+            from {
+
+                transform: rotate(0deg)
+            }
+
+            to {
+
+                transform: rotate(360deg)
+            }
+
+        }
+
+        @keyframes myAnimation {
+
+            0% {
+                /* margin-left: 0; */
+                background-color: green;
+            }
+
+            20% {
+                background-color: yellow;
+                opacity:0;
+
+            }
+
+            50% {
+                background-color: orange;
+
+            }
+
+            60% {
+                background-color: purple;
+                height: 100px;
+            }
+
+
+            70% {
+                background-color: cyan;
+
+            }
+
+            100% {
+                width: 100%;
+                background-color: red;
+            }
+
+        }
+
+        .box {
+            width: 500px;
+            height: 600px;
+            border: 1px solid red;
+        }
+
+        .child {
+
+            animation: myAnimation 8s linear 0s;
+            animation-iteration-count: 3;
+            width: 100px;
+            height: 50px;
+            background-color: green;
+        }
+
+
+        #myFan {
+            animation: fanAnimation 1s linear 0s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+    <img id="myFan" src="fan.png" alt="">
+
+    <div class="box">
+
+        <div class="child"></div>
+
+    </div>
+
+
+
+    <!-- <div class="box">
+
+        <div class="child">
+            asdasdasda
+        </div>
+
+
+    </div> -->
+
+    <!-- <div class="box">
+
+    </div> -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+</body>
+
+</html>

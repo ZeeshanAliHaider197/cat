@@ -1,0 +1,40 @@
+ .some#article div#newData p{
+    color: blue
+}
+article #input{
+    border: 1px solid red;
+}
+aside.some#artcle div #newData{
+    background-color: blue;
+    font-size: 2em;
+     
+} 
+ #some{
+    color: brown;
+}
+.cs{
+    font-size: 3em;
+}
+#some.cs{
+    background-color: blue;
+}
+[id]{
+    border: 3px rgb(209, 72, 22) !important;
+}
+[id]{
+    background-color: darkgreen !important;
+} 
+img{
+    width: 200px;
+    height: 150px;
+    
+
+}
+#name{
+    display: inline-block;
+    border: 3px solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}

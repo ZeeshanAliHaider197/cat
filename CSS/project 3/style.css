@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+#Second{
+    width: 100vw;
+    height: 59px;
+    background-color:orangered;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.boton{
+    background-color:orangered;
+    color: white;
+    border: none;
+    height: 59px;
+    width: 80px;
+    padding: 20px; 
+}
+.boton:hover{
+    background-color: lightblue;
+}
+#twitter{
+    color: white;
+    font-size: 32px;
+    padding: 12px;
+    margin-left: 3%;
+}
+#google{
+    color: white;
+    font-size: 32px;
+    padding: 12px;
+}
+#facebook{
+    color: white;
+    font-size: 32px;
+    padding: 12px; 
+}
+#circle{
+    color: white;
+    font-size: 40px;
+    padding: 12px;
+    position: absolute;
+    margin-left: -45%; 
+}
+#pera{
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    position: absolute;
+    margin-left: -37%;
+    margin-top: 9px;  
+}
+#img{
+    height: 400px;
+    width: 500px;
+    
+}
