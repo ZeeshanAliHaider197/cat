@@ -1,0 +1,15 @@
+git
+git init
+git status
+git add file name
+git remote add cat<your-git-url>
+git commit -m"<your-message-here>"
+git push cat master
+
+git log
+
+
+
+
+
+git pull cat master --allow-unrelated-histories

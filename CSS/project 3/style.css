@@ -52,8 +52,48 @@
     margin-left: -37%;
     margin-top: 9px;  
 }
-#img{
-    height: 400px;
-    width: 500px;
+#img1{
+    height: 400px !important;
+    width: 1000px;
+    margin-left: 7%;
+
+
+}
+ .container{ 
+}
+#img2{
+    height: 400px !important;
+    width: 1000px;
+    margin-left: 7%; 
+}
+#img3{
+    height: 400px !important;
+    width: 1000px;
+    margin-left: 7%;   
+}
+#card{
+    width: 100vw;
+    height: 340px;
+    background-color: lightgray;
+    margin-top: 28px;
+} 
+.card{
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: rgb(235, 232, 232);
+    margin-top: 15px;
+}
+.pic1{
+
+}
+.pic2{
+    
+}
+.pic3{
+    
+}
+.pic4{
     
 }
