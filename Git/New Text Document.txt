@@ -13,3 +13,15 @@ git log
 
 
 git pull cat master --allow-unrelated-histories
+
+
+
+
+git status
+git add .
+git commit-m"name"
+git  branch
+git checkout mster
+git branch -d name     (deleting branch)
+git checout -b branchname (creating new branch)
+git 
